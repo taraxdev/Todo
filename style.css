@@ -26,6 +26,7 @@ body{
     padding: 0 0 20px;
     overflow: hidden;
     border: 1px solid lightgray;  
+    background-color: #fff;
 }
 
 #page-banner{
@@ -145,8 +146,8 @@ body{
 
 #add-note label {
     line-height: 52px;
-    /* background-color: #2bff72;
-    color: #fff; */
+    background-color: #2bff72;
+    color: #fff;
     padding: 15px;
     border-radius: 30px;
     cursor: pointer;
