@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Todo</h1>
+                <p>note everyday stuff.</p>
+                <form id="note-down">
+                    <input type="text" placeholder="write here..." />
+                </form>
+            </div>
+        </header>
+        <div id="page-list">
+            <h2 class="title">notes</h2>
+            <ul>
+                <li>
+                    <span class="note">Take doggy for a walk</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="note">
+                        Study for chemistry
+                    </span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="note">Grocery shopping day</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="note">Window cleaning</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="add-note" name="frm">
+
+            <input type="checkbox" id="hide" />
+            <label for="hide">Hide All</label>
+
+            <input type="text" placeholder="Add your note..." name="app"/>
+            <button>Add</button>
+        </form>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
