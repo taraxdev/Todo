@@ -1,5 +1,4 @@
-
-
+document.addEventListener('DOMContentLoaded',function(){
 
     //better code
     <!--//delete note-->
@@ -69,3 +68,9 @@
         //     alert('empty');
         //     return false;
         // }
+
+
+})
+
+
+    
